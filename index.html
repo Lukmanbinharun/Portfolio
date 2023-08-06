@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lukman Protfowleo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 31);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 75px;
+            background-color: rgb(5, 5, 99);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            color: white;
+        }
+
+        nav ul a li:hover {
+            color: rgb(12, 161, 211);
+            font-size: 1.5rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        main {
+            margin-top: 50px;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            justify-content: center;
+            margin: 140px 0;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            width: 100%;
+            justify-items: center;
+            margin-left: 50px;
+        }
+
+        #element {
+            color: rgb(24, 24, 235);
+        }
+
+        .rightsection {
+            background-color: red;
+        }
+
+        .rightsection img {
+            width: 100%;
+        }
+
+        .seccondsection {
+            margin: auto;
+            max-width: 80vw;
+            height: 80vh;
+        }
+
+        .seccondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .gray {
+            color: gray;
+        }
+
+        main hr {
+            margin: 40px 40px;
+        }
+
+        .seccondsection .box {
+            background-color: white;
+            height: 2px;
+            margin: 56px 0px;
+            display: flex;
+        }
+
+        .seccondsection .vertical {
+            height: 100px;
+            width: 2px;
+            background-color: white;
+            margin: 0px 130px;
+        }
+
+        .vertical img {
+            position: relative;
+            top: -32px;
+            height: 31px;
+            left: -20px;
+        }
+        .virtacaltitle {
+            margin-top: 60px; 
+            width: 150px;
+        }
+        .dese {
+            font-size: 10px;
+            position: relative;
+            color: gray;
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Lukman's Protfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <a href="/">
+                        <li>Home</li>
+                    </a>
+                    <a href="/">
+                        <li>Projects</li>
+                    </a>
+                    <a href="/">
+                        <li>Services</li>
+                    </a>
+                    <a href="/">
+                        <li>Contac us</li>
+                    </a>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello, My Name is
+                <span class="purpal"> Lukman </span>
+                <div>
+                    I am a Passaned
+                </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="Developer.webp" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="seccondsection">
+            <div class="gray"> What I have done</div>
+            <h1> Work Experencr</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="Developer.webp" alt="">
+                    <div class="virtacaltitle">
+                        HTML Developer
+                    </div>
+                    <div class="dese">
+                        Lorem ipsum dolor sit amet fgkerogktpoeypotiypoitkprhkgpotgk .
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="Developer.webp" alt="">
+                    <div class="virtacaltitle">
+                        HTML Developer
+                    </div>
+                    <div class="dese">
+                        Lorem ipsum dolor sit amet fgkerogktpoeypotiypoitkprhkgpotgk .
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="Developer.webp" alt="">
+                    <div class="virtacaltitle">
+                        HTML Developer
+                    </div>
+                    <div class="dese">
+                        Lorem ipsum dolor sit amet fgkerogktpoeypotiypoitkprhkgpotgk .
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="Developer.webp" alt="">
+                    <div class="virtacaltitle">
+                        HTML Developer
+                    </div>
+                    <div class="dese">
+                        Lorem ipsum dolor sit amet fgkerogktpoeypotiypoitkprhkgpotgk .
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
